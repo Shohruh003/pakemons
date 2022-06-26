@@ -28,7 +28,7 @@ body {
   background-color: gold;
   padding: 20px;
   margin-bottom: 30px;
-  border-radius: 30px;
+  border-radius: 25px;
 }
 .js-list__item:hover {
   cursor: pointer;

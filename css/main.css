@@ -1,0 +1,88 @@
+body {
+  background-color: burlywood;
+}
+.container {
+  width: 1420px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.heading {
+  text-align: center;
+  font-size: 54px;
+  line-height: 1.2;
+  color: rgb(24, 8, 247);
+}
+
+.js-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.js-list__item {
+  width: 300px;
+  text-align: center;
+  background-color: gold;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+.js-list__item:hover {
+  cursor: pointer;
+  background-color: goldenrod;
+}
+
+.js-link {
+  text-decoration: none;
+}
+
+.js-id {
+  display: block;
+  text-align: left;
+  font-size: 24px;
+  font-weight: bold;
+  color: green;
+}
+
+.js-img {
+  width: 180px;
+  height: 180px;
+}
+
+.js-name {
+  font-size: 36px;
+  line-height: 1.2;
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: red;
+}
+
+.js-type {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 24px;
+  line-height: 1.2;
+  color: rgb(47, 7, 115);
+}
+
+.js-height {
+  margin-right: 10px;
+}
+
+.js-egg {
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: bold;
+  color: rgb(157, 30, 30);
+}
+
+.js-weak {
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 600;
+  margin: 0;
+  color: blue;
+}
